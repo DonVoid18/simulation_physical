@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio de física</title>
+    <script src="https://kit.fontawesome.com/71a4b48035.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,400&family=Open+Sans:wght@500&family=Roboto:wght@300&family=Rubik:ital,wght@0,400;1,300&family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
+    <!-- conexión con css -->
+    <link rel="stylesheet" href="estilos/estilos.css">
+</head>
+<body>
+    <div class="container_main">
+        <div class="container_title">
+            <h1>EJERCICIO DE PRESENTACIÓN</h1>
+            <p>Un policía dispara su arma de fuego. Su arma tiene una masa de 2.2 kg y dispara una bala de 0.02kg a una velocidad de 700 m/s. 
+               <br> <strong>Calcule la velocidad de retroceso del arma de fuego</strong>
+            </p>
+        </div>
+        <div class="container_information">
+            <div class="container_images_info">
+                <section class="container_image_state">
+                    <p>Estado 1</p>
+                    <img src="images/estado1.jpg" alt="Imagen del estado 1">
+                </section>
+                <section class="container_image_state">
+                    <p>Estado 2</p>
+                    <img src="images/estado2.gif" alt="Imagen del estado 1">
+                </section>
+            </div>
+            <div class="container_calculations_problem">
+                <div class="container_title_calculation_problem">
+                    <h3>Cálculos del problema</h3>
+                </div>
+                <div class="container_buttons_calculations">
+                    <div class="container_input_cal">
+                        <p>Masa del arma</p>
+                        <input type="number" id="masa_arma" placeholder="Kg" min="0">
+                    </div>
+                    <div class="container_input_cal">
+                        <p>Masa de la bala</p>
+                        <input type="number" id="masa_bala" placeholder="Kg" min="0">
+                    </div>
+                    <div class="container_input_cal">
+                        <p>Velocidad de la bala</p>
+                        <input type="number" id="velocidad_bala" placeholder="m/s" min="0">
+                    </div>
+                    <button class="button_calcular" id="button_calcular_problem">Calcular</button>
+                </div>
+            </div>
+            <div class="container_result_problem">
+                <h3>Resultados de la operación</h3>
+                <img src="images/formulas2.png" alt="">
+                <div class="container_result_number">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="javascript/script.js"></script>
+</body>
+</html>
